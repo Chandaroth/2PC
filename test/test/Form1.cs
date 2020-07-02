@@ -24,5 +24,16 @@ namespace test
                 MessageBox.Show("Date of Join cannot be less than or equal to Date of Birth");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DateTime dt1 = DateTime.Today;
+            MessageBox.Show(dt1.ToString());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Work from Laptop MSI");
+        }
     }
 }
